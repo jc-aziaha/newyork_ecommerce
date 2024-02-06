@@ -1,0 +1,7 @@
+<?php
+
+    $command = "php -S localhost:5000 -t public";
+
+    echo "\nPress Ctrl-C tio quiet\n\n";
+    
+    exec($command);
